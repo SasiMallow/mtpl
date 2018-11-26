@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mallow Tech Premier League - MTPL</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Page level plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/css/dataTables.bootstrap.css" rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 54px;
+        }
+
+        @media (min-width: 992px) {
+            body {
+                padding-top: 56px;
+            }
+        }
+
+        .card {
+            height: 100%;
+        }
+
+
+
+        /*Custom css*/
+        .mt-logo {
+            text-align: center;
+        }
+        .mt-header {
+            text-align: left;
+        }
+        .mt-head-footer {
+            position: absolute;
+            bottom: 0;
+            right: 212px;
+            text-align: right;
+        }
+        .mt-title {
+            opacity: 0.5;
+
+        }
+        .card-text {
+            margin-bottom: 0.75rem;
+        }
+        .mt-rules-list p {
+            margin-bottom: 0;
+        }
+        .mt-t-20 {
+            margin-top: 20px;
+        }
+        .mt-green {
+            text-align: center;
+            color: green;
+            font-weight: 800;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">MTPL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Teams</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Auction List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+        <!--<h1 class="display-3">A Warm Welcome!</h1>-->
+        <!--<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>-->
+        <!--<a href="#" class="btn btn-primary btn-lg">Call to action!</a>-->
+        <div class="row">
+            <div class="col-md-4 mt-logo">
+                <img src="images/mallow-tech-logo@2x.png">
+            </div>
+            <div class="col-md-8 mt-header">
+                <h1>Mallow Tech Premier League</h1>
+                <div class="mt-head-footer">
+                    <h6>Organised by</h6>
+                    <h6><b>Sports Club</b></h6>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Features -->
+    <h1>Teams</h1>
+    <div class="row text-center">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <span class="mt-title">Team Name</span>
+                    <h4 class="card-title">Flower Pot</h4>
+                    <span class="mt-title">Captain</span>
+                    <p class="card-text">Premanandh</p>
+                    <span class="mt-title">Mentor</span>
+                    <p class="card-text">Logesh</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <span class="mt-title">Team Name</span>
+                    <h4 class="card-title">Lancers</h4>
+                    <span class="mt-title">Captain</span>
+                    <p class="card-text">Bharathiraja</p>
+                    <span class="mt-title">Mentor</span>
+                    <p class="card-text">Jayaprakash</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <span class="mt-title">Team Name</span>
+                    <h4 class="card-title">Mambas</h4>
+                    <span class="mt-title">Captain</span>
+                    <p class="card-text">Gowthamvel</p>
+                    <span class="mt-title">Mentor</span>
+                    <p class="card-text">Yogesh</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <span class="mt-title">Team Name</span>
+                    <h4 class="card-title">Jaguar</h4>
+                    <span class="mt-title">Captain</span>
+                    <p class="card-text">Rajesh</p>
+                    <span class="mt-title">Mentor</span>
+                    <p class="card-text">Kamalavel</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <h1>Rules</h1>
+    <div class="row">
+        <div class="col-lg-12 mb-4">
+            <div class="card">
+                <div class="card-body mt-rules-list">
+                    <h5>Teams :</h5>
+                    <p class="card-text">Should have minimum of 11 members (including Team Captain and Team Mentor).</p>
+                    <p class="card-text">Should have at least 1 girl.</p>
+                    <h5 class="mt-t-20">Players need for each games :</h5>
+                    <p class="card-text">Cricket - 8 players</p>
+                    <p class="card-text">Volley ball - 6 players</p>
+                    <p class="card-text">Carrom board - min of 3 players</p>
+                    <p class="card-text">TT - min of 3 players</p>
+                    <p class="card-text">Shuttle - min of 3 players</p>
+                    <h5 class="mt-t-20">Note :</h5>
+                    <p class="card-text">One can participate in multiple games</p>
+                    <p class="card-text">It is a mixed-match tournament.</p>
+                    <h5 class="mt-t-20">Must do :</h5>
+                    <p class="card-text">Girls must participate-in at least one of their interested games.</p>
+                    <h5 class="mt-t-20">Auction points :</h5>
+                    <p class="card-text">You can find players in auction with their starting points in Auction List tab of this pages.</p>
+                    <p class="card-text">Maximum points for Team is 15000. Each team captains and mentors should use it efficiently to select their team.</p>
+                    <p class="card-text">Team Captains and Team Mentors should consider all games before selecting a player. So that you can form a balanced team in all games.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>Auction Members</h1>
+    <div class="row mb-3">
+        <div class="col-lg-12">
+            <div class="card ">
+                <!--<div class="card-header">-->
+                    <!--Data Table Example</div>-->
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Cricket</th>
+                                <th>Carrom</th>
+                                <th>TT</th>
+                                <th>Volley ball</th>
+                                <th>Shuttle</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Aarthi</td>
+                                <td class="mt-green">&#10004;</td>
+                                <td class="mt-green">&#10004;</td>
+                                <td>29</td>
+                                <td>2011/06/27</td>
+                                <td>$183,000</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>-->
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+<!-- Core plugin JavaScript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<!-- Page level plugin JavaScript-->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/dataTables.bootstrap4.js"></script>
+<script>
+    // Call the dataTables jQuery plugin
+    $(document).ready(function() {
+        $('#dataTable').DataTable({
+            "paging":   false,
+            "ordering": false,
+            "info":     false
+        });
+    });
+
+</script>
+</body>
+
+</html>
