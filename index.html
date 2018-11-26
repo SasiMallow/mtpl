@@ -62,9 +62,15 @@
             margin-top: 20px;
         }
         .mt-green {
-            text-align: center;
             color: green;
             font-weight: 800;
+            font-size: 20px;
+        }
+        table {
+            text-align: center;
+        }
+        .jumbotron {
+            background-color: #bfcede;
         }
     </style>
 
@@ -82,21 +88,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
+                    <a class="nav-link" href="#home">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Teams</a>
+                    <a class="nav-link" href="#teams">Teams</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Auction List</a>
+                    <a class="nav-link" href="#rules">Rules</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Rules</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#auctionMembers">Auction List</a>
                 </li>
             </ul>
         </div>
@@ -104,7 +107,7 @@
 </nav>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container" id="home">
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
         <!--<h1 class="display-3">A Warm Welcome!</h1>-->
@@ -125,7 +128,7 @@
     </header>
 
     <!-- Page Features -->
-    <h1>Teams</h1>
+    <h1 id="teams">Teams</h1>
     <div class="row text-center">
 
         <div class="col-lg-3 col-md-6 mb-4">
@@ -178,13 +181,13 @@
         </div>
 
     </div>
-    <h1>Rules</h1>
+    <h1 id="rules">Rules</h1>
     <div class="row">
         <div class="col-lg-12 mb-4">
             <div class="card">
                 <div class="card-body mt-rules-list">
                     <h5>Teams :</h5>
-                    <p class="card-text">Should have minimum of 11 members (including Team Captain and Team Mentor).</p>
+                    <p class="card-text">Should have minimum of 11 members (Excluding Team Captain and Team Mentor).</p>
                     <p class="card-text">Should have at least 1 girl.</p>
                     <h5 class="mt-t-20">Players need for each games :</h5>
                     <p class="card-text">Cricket - 8 players</p>
@@ -205,7 +208,7 @@
             </div>
         </div>
     </div>
-    <h1>Auction Members</h1>
+    <h1 id="auctionMembers">Auction Members</h1>
     <div class="row mb-3">
         <div class="col-lg-12">
             <div class="card ">
@@ -222,16 +225,416 @@
                                 <th>TT</th>
                                 <th>Volley ball</th>
                                 <th>Shuttle</th>
+                                <th>Starting points</th>
                             </tr>
                             </thead>
+                            <tfoot>
+                            <tr>
+                                <th>Name</th>
+                                <th>Cricket</th>
+                                <th>Carrom</th>
+                                <th>TT</th>
+                                <th>Volley ball</th>
+                                <th>Shuttle</th>
+                                <th>Starting points</th>
+                            </tr>
+                            </tfoot>
                             <tbody>
                             <tr>
-                                <td>Aarthi</td>
-                                <td class="mt-green">&#10004;</td>
-                                <td class="mt-green">&#10004;</td>
-                                <td>29</td>
-                                <td>2011/06/27</td>
-                                <td>$183,000</td>
+                                <td>Aarthi K</td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Anandhan S</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Anandraj</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Aprameyan S</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Aravind</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>BRINGE RAJ</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1600</td>
+                            </tr>
+                            <tr>
+                                <td>Dinesh Ckp</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Divakar Karunanithi</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>Ezhilvelan K M</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Gokul</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Gopalakrishnan K</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Gowthaman G</td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Harish Ramesh</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Hemalatha. R</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Indhumathi K S</td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Indhumathi Nagulsamy</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Indirajith</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>jagadeesh</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Jagajeevan Chakkaravarthi</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Jayashree</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Karthick Nachimuthu</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1250</td>
+                            </tr>
+                            <tr>
+                                <td>Krishnamoorthy</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1250</td>
+                            </tr>
+                            <tr>
+                                <td>Kumaravel</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1750</td>
+                            </tr>
+                            <tr>
+                                <td>kumaresan</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Maheswaran</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1750</td>
+                            </tr>
+                            <tr>
+                                <td>Manikandan K</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>Manivel Rajendran</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>2250</td>
+                            </tr>
+                            <tr>
+                                <td>Murali</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1250</td>
+                            </tr>
+                            <tr>
+                                <td>Naren</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Nijeesh KJ</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td>Prakash S</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>Rajesh kanna R</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Ramadurai Muruganantham</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Sasikala J</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>950</td>
+                            </tr>
+                            <tr>
+                                <td>Sasikumar K</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Sathishprabhu</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>Selvaganapathi</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>1100</td>
+                            </tr>
+                            <tr>
+                                <td>Selvakumar</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>700</td>
+                            </tr>
+                            <tr>
+                                <td>Sivavishnu</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Srikanth T</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1750</td>
+                            </tr>
+                            <tr>
+                                <td>Vengadachalapathi</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td>1250</td>
+                            </tr>
+                            <tr>
+                                <td>Venkatesh Sadhasivam</td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Vignesh</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>750</td>
+                            </tr>
+                            <tr>
+                                <td>Yogaraj</td>
+                                <td></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></td>
+                                <td>500</td>
                             </tr>
                             </tbody>
                         </table>
