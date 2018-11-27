@@ -668,14 +668,61 @@
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/dataTables.bootstrap4.js"></script>
 <script>
-    // var dataSet = [["Yogaraj", "test", "<i class=\"fa fa-check mt-green\" aria-hidden=\"true\"></i>", "test", "test", "test", "500"]];
+    var checkMark = "<i class=\"fa fa-check mt-green\" aria-hidden=\"true\"></i>";
+    //Name cricket carrom TT volleyball shuttle points
+    var dataSet = [
+        ["Aarthi K", "", "", checkMark, "", checkMark, "1000"],
+        ["Anandhan S", "", checkMark, checkMark, "", "", "750"],
+        ["Anandraj", "", "", "", checkMark, "", "500"],
+        ["Aprameyan S", checkMark, "", "", checkMark, "", "500"],
+        ["Aravind", "", checkMark, "", "", "", "500"],
+        ["Bring Raj", checkMark, checkMark, checkMark, checkMark, checkMark, "1600"],
+        ["Dinesh Ckp", checkMark, checkMark, checkMark, checkMark, checkMark, "2000"],
+        ["Divakar Karunanithi", checkMark, checkMark, checkMark, "", "", "1500"],
+        ["Ezhilvelan K M", checkMark, checkMark, "", "", "", "500"],
+        ["Gokul", "", checkMark, checkMark, checkMark, checkMark, "2000"],
+        ["Gopalakrishnan K", "", checkMark, "", "", "", "500"],
+        ["Gowthaman G", "", "", checkMark, "", checkMark, "750"],
+        ["Harish Ramesh", "", checkMark, checkMark, "", "", "750"],
+        ["Hemalatha. R", "", "", "", checkMark, checkMark, "750"],
+        ["Indhumathi K S", "", "", checkMark, "", checkMark, "500"],
+        ["Indhumathi Nagulsamy", checkMark, checkMark, "", "", "", "500"],
+        ["Indirajith", checkMark, "", "", checkMark, "", "1000"],
+        ["jagadeesh", "", "", "", checkMark, "", "500"],
+        ["Jagajeevan Chakkaravarthi", "", checkMark, "", "", "", "500"],
+        ["Jayashree", checkMark, "", "", checkMark, checkMark, "750"],
+        ["Karthick Nachimuthu", checkMark, checkMark, checkMark, checkMark, checkMark, "1250"],
+        ["Krishnamoorthy", checkMark, "", "", checkMark, checkMark, "1250"],
+        ["Kumaravel", "", checkMark, checkMark, checkMark, checkMark, "1350"],
+        ["kumaresan", "", "", "", checkMark, checkMark, "1000"],
+        ["Maheswaran", checkMark, checkMark, checkMark, checkMark, checkMark, "1750"],
+        ["Manikandan K", checkMark, checkMark, "", "", checkMark, "1500"],
+        ["Manivel Rajendran", checkMark, checkMark, checkMark, checkMark, checkMark, "2250"],
+        ["Murali", checkMark, checkMark, "", checkMark, checkMark, "1250"],
+        ["Naren", checkMark, checkMark, checkMark, "", "", "750"],
+        ["Nijeesh KJ", "", checkMark, "", "", checkMark, "600"],
+        ["Prakash S", checkMark, checkMark, checkMark, "", "", "1500"],
+        ["Rajesh kanna R", "", "", "", checkMark, "", "500"],
+        ["Ramadurai Muruganantham", checkMark, checkMark, "", "", "", "750"],
+        ["Sasikala J", checkMark, checkMark, checkMark, checkMark, checkMark, "950"],
+        ["Sasikumar K", checkMark, checkMark, "", checkMark, "", "1000"],
+        ["Sathishprabhu", checkMark, checkMark, "", checkMark, checkMark, "1500"],
+        ["Selvaganapathi", checkMark, checkMark, checkMark, checkMark, "", "1100"],
+        ["Selvakumar", checkMark, checkMark, "", "", checkMark, "700"],
+        ["Sivavishnu", checkMark, "", "", checkMark, "", "1000"],
+        ["Srikanth T", checkMark, "", checkMark, checkMark, checkMark, "1750"],
+        ["Vengadachalapathi", checkMark, checkMark, checkMark, checkMark, checkMark, "1250"],
+        ["Venkatesh Sadhasivam", checkMark, checkMark, checkMark, "", "", "1000"],
+        ["Vignesh", "", checkMark, checkMark, "", "", "750"],
+        ["Yogaraj", "", checkMark, checkMark, "", "", "500"]
+    ];
     // Call the dataTables jQuery plugin
     $(document).ready(function() {
         $('#dataTable').DataTable({
             "paging":   false,
             "ordering": false,
-            "info":     false
-            // "data": dataSet
+            "info":     false,
+            "data": dataSet
         });
     });
     $(document).on('click', 'a[href^="#"]', function (event) {
