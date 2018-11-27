@@ -159,7 +159,7 @@
             <div class="card">
                 <div class="card-body">
                     <span class="mt-title">Team Name</span>
-                    <h4 class="card-title">Mambas</h4>
+                    <h4 class="card-title">Mallow Mambas</h4>
                     <span class="mt-title">Captain</span>
                     <p class="card-text">Gowthamvel</p>
                     <span class="mt-title">Mentor</span>
@@ -171,7 +171,7 @@
             <div class="card">
                 <div class="card-body">
                     <span class="mt-title">Team Name</span>
-                    <h4 class="card-title">Jaguar</h4>
+                    <h4 class="card-title">Mallow Jaguar</h4>
                     <span class="mt-title">Captain</span>
                     <p class="card-text">Rajesh</p>
                     <span class="mt-title">Mentor</span>
@@ -209,6 +209,7 @@
         </div>
     </div>
     <h1 id="auctionMembers">Players For Auction</h1>
+    <p>Based on your skils and continuity of playing games, your starting points is calculated.</p>
     <div class="row mb-3">
         <div class="col-lg-12">
             <div class="card ">
@@ -445,7 +446,7 @@
                                 <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
                                 <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
                                 <td class="mt-green" style="color: green"><i class="fa fa-check" aria-hidden="true"></i></td>
-                                <td>1750</td>
+                                <td>1350</td>
                             </tr>
                             <tr>
                                 <td>kumaresan</td>
@@ -667,12 +668,14 @@
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/dataTables.bootstrap4.js"></script>
 <script>
+    // var dataSet = [["Yogaraj", "test", "<i class=\"fa fa-check mt-green\" aria-hidden=\"true\"></i>", "test", "test", "test", "500"]];
     // Call the dataTables jQuery plugin
     $(document).ready(function() {
         $('#dataTable').DataTable({
             "paging":   false,
             "ordering": false,
             "info":     false
+            // "data": dataSet
         });
     });
 
